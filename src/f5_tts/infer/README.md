@@ -77,7 +77,7 @@ For example, you can use `.toml` to pass in variables, refer to `src/f5_tts/infe
 model = "F5-TTS"
 ref_audio = "infer/examples/basic/basic_ref_en.wav"
 # If an empty "", transcribes the reference audio automatically.
-#ref_text = "Some call me nature, others call me mother nature."
+# ref_text = "Some call me nature, others call me mother nature."
 gen_text = "I don't really care what you call me. I've been a silent spectator, watching species evolve, empires rise and fall. But always remember, I am mighty and enduring."
 # File with text to generate. Ignores the text above.
 gen_file = ""
