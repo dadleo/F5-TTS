@@ -58,16 +58,16 @@ output_dir = "tests"
 # [if local ckpt, set --alignment_model "../checkpoints/mms-300m-1130-forced-aligner"]
 
 audio_to_edit = "src/f5_tts/infer/examples/basic/basic_ref_en.wav"
-origin_text = "Some call me nature, others call me mother nature."
+#origin_text = "Some call me nature, others call me mother nature."
 target_text = "Some call me optimist, others call me realist."
-parts_to_edit = [
-    [1.42, 2.44],
-    [4.04, 4.9],
-]  # stard_ends of "nature" & "mother nature", in seconds
-fix_duration = [
-    1.2,
-    1,
-]  # fix duration for "optimist" & "realist", in seconds
+#parts_to_edit = [
+#    [1.42, 2.44],
+#    [4.04, 4.9],
+#]  # stard_ends of "nature" & "mother nature", in seconds
+#fix_duration = [
+#    1.2,
+#    1,
+#]  # fix duration for "optimist" & "realist", in seconds
 
 # audio_to_edit = "src/f5_tts/infer/examples/basic/basic_ref_zh.wav"
 # origin_text = "对，这就是我，万人敬仰的太乙真人。"
